@@ -1,0 +1,31 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'Microsoft YaHei', sans-serif;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -moz-flex;
+  flex-flow: column;
+}
+
+.display {
+  flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+}
